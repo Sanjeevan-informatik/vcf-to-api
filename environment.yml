@@ -1,0 +1,22 @@
+name: vcf-to-api
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python[version='>=3.9.0']
+  - click
+  - numpy
+  - pandas
+  - flask
+  - scikit-learn
+  - scikit-allel
+  - bioblend==0.15.0
+  - pyyaml
+  - zarr
+  - waitress
+  - simplejson
+  - umap-learn
+  - biopython
+  - tables
+  - icecream
